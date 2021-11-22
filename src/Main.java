@@ -22,7 +22,7 @@ public class Main extends Canvas implements Runnable, MouseListener {
         jframe.setVisible(true);
 
         new Thread(main).start();
-        new Thread(new e()).start();
+        new Thread(new ClickRest()).start();
     }
     public void render() {
         BufferStrategy bs = this.getBufferStrategy();
